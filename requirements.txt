@@ -1,0 +1,12 @@
+langchain==0.1.17
+langchain-community==0.0.34
+langchain-text-splitters==0.0.1
+
+chromadb==0.4.22
+
+sentence-transformers==2.2.2
+transformers==4.34.0
+torch==2.2.0 --index-url https://download.pytorch.org/whl/cpu
+numpy==1.26.4
+
+ollama
