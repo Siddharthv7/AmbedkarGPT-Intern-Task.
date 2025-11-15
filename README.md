@@ -19,13 +19,18 @@ AmbedkarGPT is a Retrieval-Augmented Generation (RAG) chatbot built as part of t
   
 # Project Structure:-
 AmbedkarGPT/
+
 │── main.py
+
 │── speech.txt
+
 │── requirements.txt
+
 │── db/  (auto-created)
+
 └── README.md
 
-🛠 Installation
+# 🛠 Installation
 1. Clone the repository
 git clone https://github.com/your-username/AmbedkarGPT.git
 cd AmbedkarGPT
@@ -46,7 +51,7 @@ Then run:
 
 ollama pull mistral
 
-▶️ Usage
+# ▶️ Usage
 
 To start the chatbot:
 
@@ -61,44 +66,44 @@ Type 'exit' to quit.
 
 # Example Questions:-
 
-What is Ambedkar’s main message in this speech?
+1. What is Ambedkar’s main message in this speech?
 
-What social problems does he discuss?
+2. What social problems does he discuss?
 
-What does he say about equality?
+3. What does he say about equality?
 
-Explain the “real remedy” mentioned in the speech.
+4. Explain the “real remedy” mentioned in the speech.
 
 # 🧠 How It Works (RAG Flow):-
 
-Load and clean text
+- Load and clean text
 
-Split into chunks
+- Split into chunks
 
-Convert chunks into embeddings
+- Convert chunks into embeddings
 
-Store embeddings in Chroma vector database
+- Store embeddings in Chroma vector database
 
-User asks a question
+- User asks a question
 
-Retrieve top relevant chunks
+- Retrieve top relevant chunks
 
-Send to Mistral LLM for final answer
+- Send to Mistral LLM for final answer
 
-Return accurate, context-based response
+- Return accurate, context-based response
 
 # 📘 Technologies Used:-
 
-Python
+- Python
 
-LangChain
+- LangChain
 
-ChromaDB
+- ChromaDB
 
-Transformers
+- Transformers
 
-MiniLM embeddings
+- MiniLM embeddings
 
-Ollama (Mistral LLM)
+- Ollama (Mistral LLM)
 
-Torch
+- Torch
