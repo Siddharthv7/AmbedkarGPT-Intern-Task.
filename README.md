@@ -31,19 +31,16 @@ AmbedkarGPT/
 └── README.md
 
 # 🛠 Installation
-1. Clone the repository
-git clone https://github.com/Siddharthv7/AmbedkarGPT.git
-cd AmbedkarGPT
 
-2. Create and activate virtual environment (Python 3.10)
+1. Create and activate virtual environment (Python 3.10)
 py -3.10 -m venv venv
 venv\Scripts\activate
 
-3. Install dependencies
+2. Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-4. Install Ollama and pull LLM
+3. Install Ollama and pull LLM
 
 Download Ollama from: https://ollama.com
 
