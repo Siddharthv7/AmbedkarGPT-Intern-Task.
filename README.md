@@ -32,7 +32,7 @@ AmbedkarGPT/
 
 # 🛠 Installation
 1. Clone the repository
-git clone https://github.com/your-username/AmbedkarGPT.git
+git clone https://github.com/Siddharthv7/AmbedkarGPT.git
 cd AmbedkarGPT
 
 2. Create and activate virtual environment (Python 3.10)
